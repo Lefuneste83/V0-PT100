@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\steve\git\V0-PT100\KiCad\V0-PT100.sch)
-    (date "7/18/2020 10:36:03 AM")
+    (date "7/18/2020 10:42:02 AM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
