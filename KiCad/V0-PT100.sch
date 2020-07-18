@@ -30,20 +30,9 @@ U 1 1 5F132E40
 P 7050 1600
 F 0 "J3" H 7100 1917 50  0000 C CNN
 F 1 "SPI1" H 7100 1826 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 7050 1600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 7050 1600 50  0001 C CNN
 F 3 "~" H 7050 1600 50  0001 C CNN
 	1    7050 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x01 J4
-U 1 1 5F13421A
-P 7050 2100
-F 0 "J4" H 7100 2317 50  0000 C CNN
-F 1 "E0-Stop" H 7100 2226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 7050 2100 50  0001 C CNN
-F 3 "~" H 7050 2100 50  0001 C CNN
-	1    7050 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -82,23 +71,17 @@ F 3 "" H 7700 1700 50  0001 C CNN
 	1    7700 1700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6850 2100 6500 2100
 $Comp
 L power:GND #PWR0104
 U 1 1 5F13BFF4
-P 6500 2100
-F 0 "#PWR0104" H 6500 1850 50  0001 C CNN
-F 1 "GND" V 6505 1972 50  0000 R CNN
-F 2 "" H 6500 2100 50  0001 C CNN
-F 3 "" H 6500 2100 50  0001 C CNN
-	1    6500 2100
+P 6500 2050
+F 0 "#PWR0104" H 6500 1800 50  0001 C CNN
+F 1 "GND" V 6505 1922 50  0000 R CNN
+F 2 "" H 6500 2050 50  0001 C CNN
+F 3 "" H 6500 2050 50  0001 C CNN
+	1    6500 2050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7350 2100 7700 2100
-Text Label 7550 2100 0    50   ~ 0
-CS
 $Comp
 L V0PT100:MIC5225-3.3YM5-TR U2
 U 1 1 5F144C30
@@ -357,28 +340,6 @@ Wire Wire Line
 Wire Wire Line
 	7250 3450 7250 3650
 Connection ~ 7300 2850
-$Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 5F1B5E11
-P 5250 4900
-F 0 "J1" H 5168 4575 50  0000 C CNN
-F 1 "T1" H 5168 4666 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 5250 4900 50  0001 C CNN
-F 3 "~" H 5250 4900 50  0001 C CNN
-	1    5250 4900
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 5F1B8A31
-P 5250 5350
-F 0 "J2" H 5168 5025 50  0000 C CNN
-F 1 "T2" H 5168 5116 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 5250 5350 50  0001 C CNN
-F 3 "~" H 5250 5350 50  0001 C CNN
-	1    5250 5350
-	1    0    0    1   
-$EndComp
 Text Label 4600 4800 0    50   ~ 0
 FORCE+
 Text Label 4600 5250 0    50   ~ 0
@@ -702,4 +663,44 @@ F 3 "" H 4650 3450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4500 3450 4650 3450
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 5F4C2A3A
+P 7050 2150
+F 0 "J4" H 7130 2192 50  0000 L CNN
+F 1 "Servos" H 7130 2101 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7050 2150 50  0001 C CNN
+F 3 "~" H 7050 2150 50  0001 C CNN
+	1    7050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2050 6500 2050
+Wire Wire Line
+	6850 2250 6500 2250
+NoConn ~ 6850 2150
+Text Label 6550 2250 0    50   ~ 0
+CS
+$Comp
+L V0PT100:1984617 J1
+U 1 1 5F4F4DC1
+P 5050 4900
+F 0 "J1" H 5292 4619 60  0000 C CNN
+F 1 "T1" H 5292 4619 60  0001 C CNN
+F 2 "V0PT100:1984617" H 5450 4840 60  0001 C CNN
+F 3 "" H 5050 4900 60  0000 C CNN
+	1    5050 4900
+	1    0    0    1   
+$EndComp
+$Comp
+L V0PT100:1984617 J2
+U 1 1 5F4F5EA2
+P 5050 5350
+F 0 "J2" H 5292 5069 60  0000 C CNN
+F 1 "T2" H 5292 5069 60  0001 C CNN
+F 2 "V0PT100:1984617" H 5450 5290 60  0001 C CNN
+F 3 "" H 5050 5350 60  0000 C CNN
+	1    5050 5350
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

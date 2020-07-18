@@ -1,4 +1,11 @@
-14354997051787
+15950144917787
+V0PT100
+1984617
+
+
+0
+2
+2
 V0PT100
 C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -14,12 +21,12 @@ inductor handsolder
 2
 2
 V0PT100
-MAX31865ATP+T
-Circuit Protection Misc Resistance Temperature Detector to Digital Converter
+MAX31865ATP&plus_
+
 
 0
-20
-20
+21
+21
 V0PT100
 MIC5225-3.3YM5-TR
 
