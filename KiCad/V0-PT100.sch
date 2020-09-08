@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_Small_US R3
+L V0-PT100-rescue:R_Small_US-Device R3
 U 1 1 5F129B4A
 P 2100 2100
 F 0 "R3" H 1900 2150 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "~" H 2100 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J3
+L V0-PT100-rescue:Conn_02x03_Odd_Even-Connector_Generic J3
 U 1 1 5F132E40
 P 7050 1600
 F 0 "J3" H 7100 1917 50  0000 C CNN
@@ -48,7 +48,7 @@ RST
 Wire Wire Line
 	7350 1500 7700 1500
 $Comp
-L power:+5V #PWR0102
+L V0-PT100-rescue:+5V-power #PWR0102
 U 1 1 5F138591
 P 7700 1500
 F 0 "#PWR0102" H 7700 1350 50  0001 C CNN
@@ -61,7 +61,7 @@ $EndComp
 Wire Wire Line
 	7350 1700 7700 1700
 $Comp
-L power:GND #PWR0103
+L V0-PT100-rescue:GND-power #PWR0103
 U 1 1 5F13AEF8
 P 7700 1700
 F 0 "#PWR0103" H 7700 1450 50  0001 C CNN
@@ -83,7 +83,7 @@ F 3 "" H 6400 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0105
+L V0-PT100-rescue:+5V-power #PWR0105
 U 1 1 5F14C31B
 P 6150 4700
 F 0 "#PWR0105" H 6150 4550 50  0001 C CNN
@@ -94,7 +94,7 @@ F 3 "" H 6150 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0106
+L V0-PT100-rescue:GND-power #PWR0106
 U 1 1 5F14CC74
 P 6150 5250
 F 0 "#PWR0106" H 6150 5000 50  0001 C CNN
@@ -107,7 +107,7 @@ $EndComp
 Wire Wire Line
 	6150 5150 6150 5250
 $Comp
-L Device:C C3
+L V0-PT100-rescue:C-Device C3
 U 1 1 5F14D857
 P 6150 5000
 F 0 "C3" H 5950 5050 50  0000 L CNN
@@ -153,7 +153,7 @@ Wire Wire Line
 	8600 5050 8800 5050
 NoConn ~ 8600 5150
 $Comp
-L Device:C C4
+L V0-PT100-rescue:C-Device C4
 U 1 1 5F1563E9
 P 8800 5300
 F 0 "C4" H 8915 5346 50  0000 L CNN
@@ -164,7 +164,7 @@ F 3 "~" H 8800 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L V0-PT100-rescue:GND-power #PWR0108
 U 1 1 5F15678F
 P 8800 5650
 F 0 "#PWR0108" H 8800 5400 50  0001 C CNN
@@ -180,7 +180,7 @@ Wire Wire Line
 	8800 5150 8800 5050
 Connection ~ 8800 5050
 $Comp
-L Device:Ferrite_Bead_Small FB1
+L V0-PT100-rescue:Ferrite_Bead_Small-Device FB1
 U 1 1 5F16051D
 P 1950 3550
 F 0 "FB1" H 2050 3596 50  0000 L CNN
@@ -191,7 +191,7 @@ F 3 "~" H 1950 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C2
+L V0-PT100-rescue:C_Small-Device C2
 U 1 1 5F164BA8
 P 2150 3700
 F 0 "C2" H 2242 3746 50  0000 L CNN
@@ -202,7 +202,7 @@ F 3 "~" H 2150 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C1
+L V0-PT100-rescue:C_Small-Device C1
 U 1 1 5F1656B5
 P 2150 3200
 F 0 "C1" H 1950 3250 50  0000 L CNN
@@ -213,7 +213,7 @@ F 3 "~" H 2150 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:1N4148 D1
+L V0-PT100-rescue:1N4148-Diode D1
 U 1 1 5F1898C2
 P 6900 2650
 F 0 "D1" H 6900 2500 50  0000 C CNN
@@ -224,7 +224,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D2
+L V0-PT100-rescue:1N4148-Diode D2
 U 1 1 5F18BFA0
 P 6900 2950
 F 0 "D2" H 6900 2800 50  0000 C CNN
@@ -235,7 +235,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D3
+L V0-PT100-rescue:1N4148-Diode D3
 U 1 1 5F18DB50
 P 6900 3250
 F 0 "D3" H 6900 3050 50  0000 C CNN
@@ -271,7 +271,7 @@ F 3 "" H 7550 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small_US R1
+L V0-PT100-rescue:R_Small_US-Device R1
 U 1 1 5F19BEFC
 P 7250 3750
 F 0 "R1" H 7318 3796 50  0000 L CNN
@@ -282,7 +282,7 @@ F 3 "~" H 7250 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R2
+L V0-PT100-rescue:R_Small_US-Device R2
 U 1 1 5F19D211
 P 7550 3750
 F 0 "R2" H 7618 3796 50  0000 L CNN
@@ -293,7 +293,7 @@ F 3 "~" H 7550 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R4
+L V0-PT100-rescue:R_Small_US-Device R4
 U 1 1 5F19DE82
 P 7850 3750
 F 0 "R4" H 7918 3796 50  0000 L CNN
@@ -346,7 +346,7 @@ M-RTDIN-
 Text Label 3100 5500 0    50   ~ 0
 M-FORCE-
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP1
+L V0-PT100-rescue:SolderJumper_3_Bridged12-Jumper JP1
 U 1 1 5F2A911F
 P 2550 4750
 F 0 "JP1" V 2596 4818 50  0000 L CNN
@@ -367,7 +367,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 4550 2950 4700
 $Comp
-L power:GND #PWR0114
+L V0-PT100-rescue:GND-power #PWR0114
 U 1 1 5F2B1C1D
 P 2550 5050
 F 0 "#PWR0114" H 2550 4800 50  0001 C CNN
@@ -394,7 +394,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 5100 3850 5100
 $Comp
-L Jumper:SolderJumper_2_Bridged JP2
+L V0-PT100-rescue:SolderJumper_2_Bridged-Jumper JP2
 U 1 1 5F2D5027
 P 3850 4900
 F 0 "JP2" V 3896 4812 50  0000 R CNN
@@ -405,7 +405,7 @@ F 3 "~" H 3850 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP3
+L V0-PT100-rescue:SolderJumper_2_Bridged-Jumper JP3
 U 1 1 5F2D59C1
 P 3950 5400
 F 0 "JP3" V 3996 5312 50  0000 R CNN
@@ -551,7 +551,7 @@ F 3 "" H 1350 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0109
+L V0-PT100-rescue:GND-power #PWR0109
 U 1 1 5F3FBEBB
 P 1900 3700
 F 0 "#PWR0109" H 1900 3450 50  0001 C CNN
@@ -562,7 +562,7 @@ F 3 "" H 1900 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0110
+L V0-PT100-rescue:GND-power #PWR0110
 U 1 1 5F3FD6B1
 P 1900 3200
 F 0 "#PWR0110" H 1900 2950 50  0001 C CNN
@@ -609,7 +609,7 @@ Wire Wire Line
 	4500 3550 4300 3550
 Connection ~ 4500 3450
 $Comp
-L power:GND #PWR0111
+L V0-PT100-rescue:GND-power #PWR0111
 U 1 1 5F43200D
 P 2150 1750
 F 0 "#PWR0111" H 2150 1500 50  0001 C CNN
@@ -622,7 +622,7 @@ $EndComp
 Wire Wire Line
 	2500 1750 2150 1750
 $Comp
-L power:GND #PWR0112
+L V0-PT100-rescue:GND-power #PWR0112
 U 1 1 5F43897B
 P 4650 3450
 F 0 "#PWR0112" H 4650 3200 50  0001 C CNN
@@ -661,7 +661,7 @@ F 3 "" H 5050 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J4
+L V0-PT100-rescue:Conn_01x01_Male-Connector J4
 U 1 1 5F138E11
 P 6700 2200
 F 0 "J4" H 6808 2381 50  0000 C CNN
